@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:#f4f4f4;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:300px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:10px;
+    background:black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#444;
+}
+
+#message{
+    margin-top:15px;
+    text-align:center;
+}
